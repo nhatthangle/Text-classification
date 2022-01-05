@@ -1,1 +1,1 @@
-# Project-Deep-Learning---Text-classification
+# Deep Learning Project - Text classification
