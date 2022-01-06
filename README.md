@@ -13,7 +13,7 @@ In this project, we would like to try text classification models on a text data 
 </p>
 
 <p align="justify">
-Additionally, we would try to do a multi-classification task rather than the "traditional" binary classification task, which would be kind of boring. Moreover, the code written in our project is original, we consult some extra small ideas from various pages but they are not too significant. 
+Additionally, we would try to do a multi-classification task rather than the "traditional" binary classification task, which would be kind of boring. Moreover, the code written in our project is original, we have consulted some extra small ideas from various pages but they are not too significant. 
 </p>
 
 ## Dataset
