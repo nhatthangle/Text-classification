@@ -15,7 +15,9 @@ We use a dataset that can be downloaded from this link:
 
 https://www.kaggle.com/meetnagadia/amazon-kindle-book-review-for-sentiment-analysis?select=preprocessed_kindle_review+.csv
 
+<p align="justify">
 The dataset contains 12000 text reviews of amazon kindle books (the "reviewText" column) with corresponding ratings (the "rating" column) taking integer values from 1 to 5. The other variables are "ID" and "summary" but we do not care about these variables. The text reviews are all about how good/bad a book is rather than the physical quality of the product like in the case of printed books.
+</p>
 
 Here is a look at the distribution of ratings from 1 to 5: 
 
@@ -30,8 +32,9 @@ First few lines of the dataset:
 (picture)
 
 ## Data cleaning
+<p align="justify">
 We perform data cleaning by lowercasing the words in each review, removing punctuations, tokenzing the reviews and then removing stopwords using nltk. Before untokenizing the reviews, we also used Snowball Stemmer to stem the words. Snowball Stemmer has become popular in recent years and has been considered as the best stemming method by some parts of Machine Learning Community. In 2021, the Snowball Team released version 2.1 and 2.2, here is their website: https://snowballstem.org/
-
+</p>
 
 
 
