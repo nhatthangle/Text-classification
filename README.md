@@ -10,7 +10,9 @@ In recent years, text classification has become a well-known topic around the wo
   
 <p align="justify">
 In this project, we would like to try text classification models on a text data that gives ratings to books on Amazon website. We would like to see how much better or how much worse (in terms of test accuracy) a regularization method or an optimization method can add to our models. Another persepective is that we want to comapare different well-known ML algorithms such as Logistic Regression, Support Vector Machine, Naive Bayes etc. as well as deep neural network models.
+</p>
 
+<p align="justify">
 Additionally, we would try to do a multi-classification task rather than the "traditional" binary classification task, which would be kind of boring. Moreover, the code written in our project is original, we consult some extra small ideas from various pages but they are not too significant. 
 </p>
 
