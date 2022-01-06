@@ -12,14 +12,18 @@ Additionally, we would try to do a multi-classification task rather than the "tr
 
 ## Dataset
 We use a dataset that can be downloaded from this link:
+
 https://www.kaggle.com/meetnagadia/amazon-kindle-book-review-for-sentiment-analysis?select=preprocessed_kindle_review+.csv
+
 The dataset contains 12000 text reviews of amazon kindle books (the "reviewText" column) with corresponding ratings (the "rating" column) taking integer values from 1 to 5. The other variables are "ID" and "summary" but we do not care about these variables. The text reviews are all about how good/bad a book is rather than the physical quality of the product like in the case of printed books.
 
 Here is a look at the distribution of ratings from 1 to 5: 
 
 (picture of the table)
 
+<p align="center">
 As we can see, the data is quite balanced for classification task: If we consider reviews with ratings greater than 3 stars as "good" and the rest is "not good", we will have 6000 "good" and 6000 "not good" reviews. However, as stated above, our task is to train models that classify the ratings into 5 categories corresponding to integers from 1 to 5. As a result, our task should have the accuracy (on the test set) greater than that of the "dumb model", which is 3000/12000 = 25%, and in which case, it classifies all the test reviews as 5 stars (or 4 stars). The previous statement supposes that the ratings of the test set have a similar distribution as of the whole dataset (that is, each of 1-star, 2-star, 3-star ratings accounts for approximately 1/6 of the reviews and each of 4-star and 5-star ratings accounts for 1/4 of the reviews).
+</p>
 
 First few lines of the dataset: 
 
