@@ -32,8 +32,13 @@ First few lines of the dataset:
 (picture)
 
 ## Data cleaning
+We perform data cleaning by: 
+•	lowercasing the words in each review \
+•	removing punctuations and possibly some urls \
+•	tokenzing the reviews and then removing stopwords using nltk \
+
 <p align="justify">
-We perform data cleaning by lowercasing the words in each review, removing punctuations, tokenzing the reviews and then removing stopwords using nltk. Before untokenizing the reviews, we also used Snowball Stemmer to stem the words. Snowball Stemmer has become popular in recent years and has been considered as the best stemming method by some parts of Machine Learning Community. In 2021, the Snowball Team released version 2.1 and 2.2, here is their website: https://snowballstem.org/
+Before untokenizing the reviews, we also used Snowball Stemmer to stem the words. Snowball Stemmer has become popular in recent years and has been considered as the best stemming method by some parts of Machine Learning Community. In 2021, the Snowball Team released version 2.1 and 2.2, here is their website: https://snowballstem.org/
 </p>
 
 
