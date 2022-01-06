@@ -32,7 +32,7 @@ First few lines of the dataset:
 (picture)
 
 ## Data cleaning
-We perform data cleaning by: 
+We perform data cleaning by:\
 •	lowercasing the words in each review \
 •	removing punctuations and possibly some urls \
 •	tokenzing the reviews and then removing stopwords using nltk \
