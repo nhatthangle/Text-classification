@@ -2,13 +2,17 @@
 By Nhat Thang LE & Emir Dakin TARIK
 
 ## Motivation 
-
+<p align="justify">
 In recent years, text classification has become a well-known topic around the world with a wide range of applications in dectecting hateful racisms, spam emails, frauds, recommendation algorithms, etc. A lot of treatments have been proposed to enhance models' performance and many different preprocessing or embedding techniques have been used for cleaning data, texts and then turning texts, sentences, words into vectors of real numbers for easier manipulation. For this reason, we are amused by it's essence and would like to do a text classification for ourselves with the aim to see how far we can improve our model accuracy using many different optimization, regularlization techniques and additionally, to see if a stemming method helps improve the test set accuracy.
+</p>
 
 ## Objectives
+  
+<p align="justify">
 In this project, we would like to try text classification models on a text data that gives ratings to books on Amazon website. We would like to see how much better or how much worse (in terms of test accuracy) a regularization method or an optimization method can add to our models. Another persepective is that we want to comapare different well-known ML algorithms such as Logistic Regression, Support Vector Machine, Naive Bayes etc. as well as deep neural network models.
 
 Additionally, we would try to do a multi-classification task rather than the "traditional" binary classification task, which would be kind of boring. Moreover, the code written in our project is original, we consult some extra small ideas from various pages but they are not too significant. 
+</p>
 
 ## Dataset
 We use a dataset that can be downloaded from this link:
@@ -33,6 +37,7 @@ First few lines of the dataset:
 
 ## Data cleaning
 We perform data cleaning by:\
+
 •	lowercasing the words in each review \
 •	removing punctuations and possibly some urls \
 •	tokenzing the reviews and then removing stopwords using nltk \
