@@ -57,11 +57,21 @@ For the classification task we will use TF-IDF representation for each review. B
 ## Classification Models
 
 <p align="justify">
-The first part is to try all well-known ML classifiers such as: Ensemble methods(Bagging, Random Forest, Gradient Boosting, etc.), Support Vector Machines methods, Discriminant Analysis. The details of all methods will be given in the results. We also try to perform perameter tuning to enhance the performance of these methods.
+The first part is to try all well-known ML classifiers: 
+•	Ensemble methods: Bagging of trees, Random Forest, Gradient Boosting, Extreme Gradient Boosting, AdaBoost, LightGBM  \
+•	Support Vector Machines methods: Linear SVC and Nonlinear SVM with polynomial and Gaussian kernels
+•	Discriminant Analysis: Linear and Quadratic
+  
+Moreover, we also try to perform parameters tuning to enhance the performance of some of these methods, the rest takes too long to tune.
  </p>
 
 <p align="justify">
-The second part will focus on Neural Network models: Basic Sequential models, LTSM models, and finally a CNN model. The main focus is to try enhance model performance by adapting different optimization algorithms such as SGD (mini-batch, batch), RMSProp, Adam etc. and by imposing regularization methods such as l1, l2 regularizations, dropout, batch-normalization, early stopping, weight initilizations and combinations of them.
+The second part will focus on Neural Network models:
+•	Basic Sequential models \
+•	RNN models: LSTM models \
+•	CNN model
+  
+The main focus is to try enhance model performance by adapting different optimization algorithms such as SGD (mini-batch, batch), RMSProp, Adam etc. and by imposing regularization methods such as l1, l2 regularizations, dropout, batch-normalization, early stopping, weight initilizations and combinations of them.
 </p>
 
 As has been said above, we will perform classification on both cleaned data without stemming and the stemmed data
