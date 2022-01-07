@@ -89,7 +89,11 @@ As has been said above, we will perform classification on both cleaned data with
 
 ## Results 
 
-First, we would like to present the results of the first part using well-know machine learning algorithms. We used 4 different metrics to evaluate how good the performance is: accuray, weighted f1, weighted precision and weighted recall. The main focus is still the accuracy rate. Below is the table of metrics for cleaned data and stemmed data. The algorithms used in this were not tuned.
+### First part: Well-known machine learning classifiers and hyperparameters tuning
+
+#### Before tuning
+
+We would like to present the results of the first part using well-know machine learning algorithms. We used 4 different metrics to evaluate how good the performance is: accuray, weighted f1, weighted precision and weighted recall. The main focus is still the accuracy rate. Below is the table of metrics for cleaned data and stemmed data. The algorithms used in this were not tuned.
   
 <img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/ML.png" />
 
@@ -99,7 +103,16 @@ In the picture above, the left table is for cleaned data without stemming and th
 
 </p>
 
+#### After tuning
 
+### Second part: Neural network models
+
+#### Sequential models 
+
+
+#### LSTM models
+
+#### CNN model
 
 
 
