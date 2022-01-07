@@ -45,8 +45,29 @@ We perform data cleaning by:
 •	tokenzing the reviews and then removing stopwords using nltk 
 
 <p align="justify">
-Before untokenizing the reviews, we also used Snowball Stemmer to stem the words. Snowball Stemmer has become popular in recent years and has been considered as the best stemming method by some parts of Machine Learning Community. In 2021, the Snowball Team released version 2.1 and 2.2, here is their website: https://snowballstem.org/
+Before untokenizing the reviews, we also used Snowball Stemmer to stem the words. Snowball Stemmer has become popular in recent years and has been considered as the best stemming method by some parts of Machine Learning Community. In 2021, the Snowball Team released version 2.1 and 2.2, here is their website:
+  
+https://snowballstem.org/
 </p>
+
+In the following analysis, we will perform classification on the cleaned data without stemming and the stemmed data to see if Snowball Stemmer helps or not.
+
+For the classification task we will use TF-IDF representation for each review. Bag-of-words representation was considered but due to the runtime of the code, we drop this case.
+
+## Classification Models
+
+<p align="justify">
+The first part is to try all well-known ML classifiers such as: Ensemble methods(Bagging, Random Forest, Gradient Boosting, etc.), Support Vector Machines methods, Discriminant Analysis. The details of all methods will be given in the results. We also try to perform perameter tuning to enhance the performance of these methods.
+ </p>
+
+<p align="justify">
+The second part will focus on Neural Network models: Basic Sequential models, LTSM models, and finally a CNN model. The main focus is to try enhance model performance by adapting different optimization algorithms such as SGD (mini-batch, batch), RMSProp, Adam etc. and by imposing regularization methods such as l1, l2 regularizations, dropout, batch-normalization, early stopping, weight initilizations and combinations of them.
+</p>
+
+As has been said above, we will perform classification on both cleaned data without stemming and the stemmed data
+
+
+
 
 
 
