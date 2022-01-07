@@ -54,6 +54,12 @@ In the following analysis, we will perform classification on the cleaned data wi
 
 For the classification task we will use TF-IDF representation for each review. Bag-of-words representation was considered but due to the runtime of the code, we drop this case.
 
+Let's take a look at how different a cleaned review and a stemmed review are: 
+
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/Cleaned%26Stemmed.png" width="1200" height="500" />
+
+
+
 ## Classification Models
 
 <p align="justify">
