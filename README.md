@@ -86,11 +86,14 @@ As has been said above, we will perform classification on both cleaned data with
 
 ## Result 
 
-<p align="justify">
-First Part: 
+First Part:\
   
 <img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/ML.png" />
+
+<p align="justify">
   
+The left table is for cleaned data without stemming and the right table is for stemmed data. As can be see, stemming makes it worse in each classifier. Nonlinear SVC - Gaussian Kernel wins in the cleaned data and LinearSVC wins in the stemmed data but NSVC- Gaussian Kernel is just slightly lower than Linear SVC
+
 </p>
 
 
