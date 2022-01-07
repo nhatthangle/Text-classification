@@ -56,7 +56,7 @@ For the classification task we will use TF-IDF representation for each review. B
 
 Let's take a look at how different a cleaned review and a stemmed review are: 
 
-<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/Cleaned%26Stemmed.png" width="1200" height="500" />
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/Cleaned%26Stemmed.png" width="1000" height="300" />
 
 
 
