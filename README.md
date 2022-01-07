@@ -35,7 +35,7 @@ As we can see, the data is quite balanced for classification task: If we conside
 
 First few lines of the dataset: 
 
-<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/First%20lines.png" width="1200" height="300" />
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/First%20lines.png" width="900" height="300" />
 
 ## Data cleaning
 We perform data cleaning by:
