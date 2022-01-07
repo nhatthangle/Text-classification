@@ -52,7 +52,7 @@ https://snowballstem.org/
 
 In the following analysis, we will perform classification on the cleaned data without stemming and the stemmed data to see if Snowball Stemmer helps or not.
 
-For the classification task we will use TF-IDF representation for each review. Bag-of-words representation was considered but due to the runtime of the code, we drop this case.
+For the classification task we will use TF-IDF representation for each review using 1 and 2-gram words. Bag-of-words representation was considered but due to the runtime of the code, we drop this case.
 
 Let's take a look at how different a cleaned review and a stemmed review are: 
 
@@ -84,6 +84,14 @@ The main focus is to try enhance model performance by adapting different optimiz
 
 As has been said above, we will perform classification on both cleaned data without stemming and the stemmed data
 
+## Result 
+
+<p align="justify">
+First Part: 
+  
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/ML.png" />
+  
+</p>
 
 
 
