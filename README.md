@@ -84,15 +84,15 @@ The main focus is to try enhance model performance by adapting different optimiz
 
 As has been said above, we will perform classification on both cleaned data without stemming and the stemmed data
 
-## Result 
+## Results 
 
-First Part:\
+First, we would like to present the results of the first part using well-know machine learning algorithms. We used 4 different metrics to evaluate how good the performance is: accuray, weighted f1, weighted precision and weighted recall. The main focus is still the accuracy rate. Below is the table of metrics for cleaned data and stemmed data. The algorithms used in this were not tuned.
   
 <img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/ML.png" />
 
 <p align="justify">
   
-The left table is for cleaned data without stemming and the right table is for stemmed data. As can be see, stemming makes it worse in each classifier. Nonlinear SVC - Gaussian Kernel wins in the cleaned data and LinearSVC wins in the stemmed data but NSVC- Gaussian Kernel is just slightly lower than Linear SVC
+In the picture above, the left table is for cleaned data without stemming and the right table is for stemmed data. As can be see, stemming makes it worse in each classifier. Nonlinear SVC - Gaussian Kernel wins in the cleaned data and LinearSVC wins in the stemmed data but NSVC- Gaussian Kernel is just slightly lower than Linear SVC
 
 </p>
 
