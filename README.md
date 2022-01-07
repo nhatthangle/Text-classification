@@ -60,7 +60,7 @@ For the classification task we will use TF-IDF representation for each review. B
 The first part is to try all well-known ML classifiers: 
   
 •	Ensemble methods: Bagging of trees, Random Forest, Gradient Boosting, Extreme Gradient Boosting, AdaBoost, LightGBM  \
-•	Support Vector Machines methods: Linear SVC and Nonlinear SVM with polynomial and Gaussian kernels
+•	Support Vector Machines methods: Linear SVC and Nonlinear SVM with polynomial and Gaussian kernels \
 •	Discriminant Analysis: Linear and Quadratic
   
 Moreover, we also try to perform parameters tuning to enhance the performance of some of these methods, the rest takes too long to tune.
