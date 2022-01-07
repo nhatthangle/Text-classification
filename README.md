@@ -54,6 +54,9 @@ In the following analysis, we will perform classification on the cleaned data wi
 
 For the classification task we will use TF-IDF representation for each review using 1 and 2-gram words. Bag-of-words representation was considered but due to the runtime of the code, we drop this case.
 
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/TF-IDF.png"  />
+
+
 Let's take a look at how different a cleaned review and a stemmed review are: 
 
 <img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/Cleaned%26Stemmed.png" width="1000" height="300" />
