@@ -27,7 +27,7 @@ The dataset contains 12000 text reviews of amazon kindle books (the "reviewText"
 
 Here is a look at the distribution of ratings from 1 to 5: 
 
-<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/ratings_distribution.png" width="400" height="300" />
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/ratings_distribution.png" width="450" height="300" />
 
 <p align="justify">
 As we can see, the data is quite balanced for classification task: If we consider reviews with ratings greater than 3 stars as "good" and the rest is "not good", we will have 6000 "good" and 6000 "not good" reviews. However, as stated above, our task is to train models that classify the ratings into 5 categories corresponding to integers from 1 to 5. As a result, our task should have the accuracy (on the test set) greater than that of the "dumb model", which is 3000/12000 = 25%, and in which case, it classifies all the test reviews as 5 stars (or 4 stars). The previous statement supposes that the ratings of the test set have a similar distribution as of the whole dataset (that is, each of 1-star, 2-star, 3-star ratings accounts for approximately 1/6 of the reviews and each of 4-star and 5-star ratings accounts for 1/4 of the reviews).
