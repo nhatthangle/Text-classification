@@ -132,7 +132,18 @@ It seems that the models worked well on both data and gave approximately identic
 
 #### LSTM models
 
+Below is the results of the LSTM models
+
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/LSTM.png" />
+
+It seems that the LSTM models does not work too well. In fact, we set number of epochs = 10 to save time on training, some models could be better if we increased the this number. For the cleaned and stemmed data, the performance of LSTM models is approximately identical again.
+
+
 #### CNN model
+
+Below is the results of the CNN models
+
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/CNN.png" />
 
 
 
