@@ -70,7 +70,8 @@ The first part is to try all well-known ML classifiers:
   
 •	Ensemble methods: Bagging of trees, Random Forest, Gradient Boosting, Extreme Gradient Boosting, AdaBoost, LightGBM  \
 •	Support Vector Machines methods: Linear SVC and Nonlinear SVM with polynomial and Gaussian kernels \
-•	Discriminant Analysis: Linear and Quadratic
+•	Discriminant Analysis: Linear and Quadratic \
+• Logistic Regressions with L1 and L2 penalty
 </p>
 
 #### Strategy:
