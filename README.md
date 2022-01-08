@@ -122,11 +122,12 @@ In the picture above, the left table is for cleaned data without stemming and th
 ### Second part: Neural network models
 
 #### Sequential models 
-Here is the result for the Sequential models that we implemented
+
+Here is the result for the Sequential models that we implemented, the left table is for cleaned data and the right one is for the stemmed data.
 
 <img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/Sequential.png" />
 
-
+It seems that the models worked well on both data and gave approximately identical metrics on the test set (though it is a little bit better for stemmed data).
 
 
 #### LSTM models
