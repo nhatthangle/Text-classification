@@ -65,15 +65,21 @@ Let's take a look at how different a cleaned review and a stemmed review are:
 
 ## Classification Models
 
+### Part I: Well-known ML classifiers
 <p align="justify">
 The first part is to try all well-known ML classifiers: 
   
 •	Ensemble methods: Bagging of trees, Random Forest, Gradient Boosting, Extreme Gradient Boosting, AdaBoost, LightGBM  \
 •	Support Vector Machines methods: Linear SVC and Nonlinear SVM with polynomial and Gaussian kernels \
 •	Discriminant Analysis: Linear and Quadratic
-  
-Moreover, we also try to perform parameters tuning to enhance the performance of some of these methods, the rest takes too long to tune.
- </p>
+</p>
+
+#### Strategy:
+
+We try to perform parameters tuning to enhance the performance of some of these methods, the rest takes too long to tune.
+ 
+
+### Part II: Neural network models
 
 <p align="justify">
 The second part will focus on Neural Network models:
@@ -85,7 +91,15 @@ The second part will focus on Neural Network models:
 The main focus is to try enhance model performance by adapting different optimization algorithms such as SGD (mini-batch, batch), RMSProp, Adam etc. and by imposing regularization methods such as l1, l2 regularizations, dropout, batch-normalization, early stopping, weight initilizations and combinations of them.
 </p>
 
-As has been said above, we will perform classification on both cleaned data without stemming and the stemmed data
+As has been said above, we will perform classification on both cleaned data without stemming and the stemmed data.
+
+### Strategy:
+
+First, we try the usual Sequential models with different optimization methods: SGD, mini-batch SGD, batch SGD, RMSProp, Adam on the crude Sequentila models to see which method is opitmal. Next, we use the optimal methods (according to the results) RMSProp and Adam as default for the models that follows and add combinations of regularization methods l1, l2, batch normalization, dropout to see if they work. After this, we implement other regularization methods such as Xavier weight initializations and early stopping.
+
+Second, we implement an RNN model, namely LSTM model (stands for Long Short Term Memory) with optimization methods Adam and RMSProp and play with the regularization methods again. We also add try fastText embedding on these models.
+
+Third, we build a simple CNN model, which is uasually used for image classification. However, in this case, we can still implement it for text classification using some modification. 
 
 ## Results 
 
