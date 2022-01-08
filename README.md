@@ -35,7 +35,7 @@ As we can see, the data is quite balanced for classification task: If we conside
 
 First few lines of the dataset: 
 
-<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/First%20lines.png" width="1000" height="270" />
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/First%20lines.png" width="1000" height="250" />
 
 ## Data cleaning
 We perform data cleaning by:
@@ -59,7 +59,7 @@ For the classification task we will use TF-IDF representation for each review us
 
 Let's take a look at how different a cleaned review and a stemmed review are: 
 
-<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/Cleaned%26Stemmed.png" width="1000" height="300" />
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/Cleaned%26Stemmed.png" width="1000" height="280" />
 
 
 
