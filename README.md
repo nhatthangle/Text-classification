@@ -1,9 +1,8 @@
 # Deep Learning Project - Text classification
-By Nhat Thang LE & Emir Dakin TARIK
-
+By Nhat Thang LE 
 ## Motivation 
 <p align="justify">
-In recent years, text classification has become a well-known topic around the world with a wide range of applications in dectecting hateful racisms, spam emails, frauds, recommendation algorithms, etc. A lot of treatments have been proposed to enhance models' performance and many different preprocessing or embedding techniques have been used for cleaning data, texts and then turning texts, sentences, words into vectors of real numbers for easier manipulation. For this reason, we are amused by it's essence and would like to do a text classification for ourselves with the aim to see how far we can improve our model accuracy using many different optimization, regularlization techniques and additionally, and to see if a stemming method helps improve the test set accuracy.
+In recent years, text classification has become a well-known topic around the world with a wide range of applications in dectecting hateful racisms, spam emails, frauds, recommendation algorithms, etc. A lot of treatments have been proposed to enhance models' performance and many different preprocessing or embedding techniques have been used for cleaning data, texts and then turning texts, sentences, words into vectors of real numbers for easier manipulation. For this reason, we are amused by it's essence and would like to do a text classification for ourselves with the aim to see how far we can improve our model accuracy using many different optimization, regularization techniques and additionally, and to see if a stemming method helps improve the test set accuracy.
 </p>
 
 ## Objectives
