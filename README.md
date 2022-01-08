@@ -93,7 +93,7 @@ The main focus is to try enhance model performance by adapting different optimiz
 
 As has been said above, we will perform classification on both cleaned data without stemming and the stemmed data.
 
-### Strategy:
+#### Strategy:
 
 First, we try the usual Sequential models with different optimization methods: SGD, mini-batch SGD, batch SGD, RMSProp, Adam on the crude Sequentila models to see which method is opitmal. Next, we use the optimal methods (according to the results) RMSProp and Adam as default for the models that follows and add combinations of regularization methods l1, l2, batch normalization, dropout to see if they work. After this, we implement other regularization methods such as Xavier weight initializations and early stopping.
 
@@ -122,6 +122,11 @@ In the picture above, the left table is for cleaned data without stemming and th
 ### Second part: Neural network models
 
 #### Sequential models 
+Here is the result for the Sequential models that we implemented
+
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/Sequential.png" />
+
+
 
 
 #### LSTM models
