@@ -101,6 +101,10 @@ Second, we implement an RNN model, namely LSTM model (stands for Long Short Term
 
 Third, we build a simple CNN model, which is uasually used for image classification. However, in this case, we can still implement it for text classification using some modification. 
 
+##### Loss function, evaluation metrics
+
+Because this is a multiclass classification task, we will use the loss "categorical cross-entropy" and with 4 metrics: accuracy, weighted f1, weighted precision, weighted recall.
+
 ## Results 
 
 ### First part: Well-known machine learning classifiers and hyperparameters tuning
