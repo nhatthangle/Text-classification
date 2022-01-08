@@ -120,7 +120,7 @@ In the picture above, the left table is for cleaned data without stemming and th
 
 Here, we tuned three models: Bagging of trees and Logistic Regression with L1 and L2 norm. The result is given below, the left table is for cleaned data and the right one is for stemmed data
 
-<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/Sequential.png" />
+<img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/ML_tuned.png" />
 
 It seems that the tuning does not help much.
 
