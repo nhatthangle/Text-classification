@@ -141,9 +141,20 @@ It seems that the LSTM models does not work too well. In fact, we set number of 
 
 #### CNN model
 
-Below is the results of the CNN models
+Below is the results of the CNN models. Again, the left table is for cleaned data and the right one is for the stemmed data. We only tried a few regularizations on this model because the run time has been too large to handle.
 
 <img src="https://github.com/nhatthangle/Project-Deep-Learning---Text-classification/blob/main/CNN.png" />
+
+Also, the CNN models do not work too well in comparision with then Sequential models. 
+
+## Conclusion
+
+We have literally "throw a kitchen sink" to this text classification data to see how regularization methods improve our models. As can be seen, these methods did help improve the metrics we used in the code on the test set. A lot more can be done to improve our models and a lot more embedding methods, can be consider, however, the run time of the code has exceeded 6 hours of completing so it will be too big to add more. 
+
+For the Snowball Stemmer tool, it does help slightly improve our performance in the case of Sequential models, but not too significant.
+
+This data was created, according to some sources, for practicing text classification because it has a balanced "good" (rating >3) and "not good" (rest) reviews, but we did try on multiclass classfication rather then binary one and obtained good performance (50% compared with 25% of the dumb model) so in general, we believe our approach is a good way to text classification problem. 
+
 
 
 
